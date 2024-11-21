@@ -46,6 +46,7 @@ dataset_klue = load_dataset("klue/klue", "mrc")
 splits = ['train', 'validation']
 output_files = ['merged_train.json', 'merged_validation.json']
 
+
 # 두 데이터셋을 리스트로 전달
 format_and_save_datasets([dataset_korquad, dataset_klue], splits, output_files, max_length=1024)
 
