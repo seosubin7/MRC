@@ -31,7 +31,7 @@ def normalize_answer(s):
         return ' '.join(text.split())
 
     def remove_newlines(text):
-        return text.replace('\\n', ' ')  # 문자열로 포함된 \n을 공백으로 대체
+        return text.replace('\\n', ' ')  
 
     def remove_letter_dot(text):
         # 'A.', 'B.'와 같은 알파벳과 점을 제거
