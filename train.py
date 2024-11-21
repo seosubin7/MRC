@@ -100,7 +100,7 @@ def preprocess_function(examples):
     return {
         'input_ids': tokenized_inputs['input_ids'],
         'attention_mask': tokenized_inputs['attention_mask'],
-        'labels': labels  # 손실 계산을 위한 label 설정
+        'labels': labels 
     }
 
 # 데이터셋 전처리
